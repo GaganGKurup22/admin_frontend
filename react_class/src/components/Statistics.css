@@ -1,0 +1,42 @@
+.statistics {
+    margin-top: 20px;
+  }
+  
+  .stat-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .bar-label {
+    width: 150px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .bar-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .bar {
+    flex: 1;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #6A5ACD;
+    border-radius: 5px;
+  }
+  
+  .stat-text {
+    width: 50px;
+    text-align: right;
+  }
+  
